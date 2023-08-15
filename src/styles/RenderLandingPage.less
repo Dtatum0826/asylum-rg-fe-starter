@@ -41,14 +41,48 @@
     font-size: 1.2rem;
 }
 
-// .graphs-section {
-//  ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
-// }
 
+.graphs-section {
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+
+}
+.graphs-section div{
+    text-align: center;
+    height: auto;
+    
+}
+.graphs-section img{
+    max-width: 55%;
+    height: auto;
+    
+}
+
+.graphs-section p{
+   
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-family:'acumin';
+    font-weight: 400;
+}
+
+.data-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
 .view-more-data-btn-container {
     height: 44px;
     width: 180px;
-    margin: 0 auto;
+    margin: 0 ;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.download-the-data-button-container {
+    height: 44px;
+    width: 180px;
+    margin: 0 ;
     text-align: center;
     margin-bottom: 10%;
 }
@@ -77,13 +111,38 @@
 
 .bottom-section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottom-section  div{
+    flex: 1;
+    padding: 20px;
+    margin:7rem;
+    box-sizing: border-box;
 }
 
-.bottom-section h2{
+.bottom-h2{
+    font-family: 'moneta';
     font-size: 3.5rem;
+    text-align: center;
+   font-weight: 500;
+   margin-top: 7%;
+    margin-bottom: 5%;
+    
 }
 .bottom-section h3{
     font-size: 3rem;
+    font-family: 'moneta';
+    font-weight: 500;
+    text-align: center;
+}
+.bottom-section p {
+    font-size: 1rem;
+    font-family: 'acumin';
+    font-weight: 500;
+}
+.read-more-button-container{
+    text-align: center;
 }
 
 .back-to-top {
