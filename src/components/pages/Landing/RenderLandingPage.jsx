@@ -1,5 +1,4 @@
 import React from 'react';
-// ADD IMPORTS BACK FOR GRAPHS SECTION
 import GrantRatesByOfficeImg from '../../../styles/Images/bar-graph-no-text.png';
 import GrantRatesByNationalityImg from '../../../styles/Images/pie-chart-no-text.png';
 import GrantRatesOverTimeImg from '../../../styles/Images/line-graph-no-text.png';
@@ -17,10 +16,7 @@ function RenderLandingPage(props) {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   };
-  //  const CSV_FILE =  'http://localhost:3000/data/COW2021001887-I589Data.csv';
-  // const downloadFileAtURL = (url)=>{
 
-  // };
   const history = useHistory();
 
   return (
@@ -36,7 +32,6 @@ function RenderLandingPage(props) {
         </div>
       </div>
 
-      {/* Graphs Section: Add code here for the graphs section for your first ticket */}
       <div className="graphs-section">
         <div>
           <img src={GrantRatesByOfficeImg} alt="bar graph" />
@@ -55,7 +50,7 @@ function RenderLandingPage(props) {
           <p>Search Grant Rates Over Time</p>
         </div>
       </div>
-      {/* <div className="graphs-section"> */}
+
       <div className="data-btn-container">
         <div className="view-more-data-btn-container">
           <Button
